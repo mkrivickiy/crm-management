@@ -1,0 +1,12 @@
+package method
+
+type Segment struct {
+	Name        string `json:"name"`         //The formatted name for this Segment
+	Path        string `json:"path"`         //The sequence of slugified names leading up to (and including) this Segment, separated by period characters
+	ShortName   string `json:"short_name"`   //The slugified name of this Segment
+	HasChildren bool   `json:"has_children"` //Whether this Segment has more Segments under it
+	ImageURL    string `json:"image_url"`    //(Optional) A fullxfull image representing this Segment
+	ShopID      int    `json:"shop_id"`      //(Optional) The shop_id of the Shop from which the image_url was chosen
+	ShopName    int    `json:"shop_name"`    //(Optional) The name of the Shop from which the image_url was chosen
+	ListingID   int    `json:"listing_id"`   //(Optional) The id of the listing from which the image_url was chosen.
+}
