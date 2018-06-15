@@ -1,6 +1,6 @@
 package authentificate
 
 type User struct {
-	ID       int    `json:"id"`
+	ID       string `json:"id"`
 	Language string `json:"language"`
 }

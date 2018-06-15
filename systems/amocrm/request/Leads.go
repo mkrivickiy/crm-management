@@ -1,6 +1,6 @@
 package request
 
-import "crm-management/systems/amocrm"
+import "github.com/mkrivickiy/crm-management/systems/amocrm"
 
 type Leads struct {
 	Add    []amocrm.Lead `json:"add,omitempty"`

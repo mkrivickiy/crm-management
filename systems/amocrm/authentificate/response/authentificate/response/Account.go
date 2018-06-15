@@ -1,7 +1,7 @@
 package response
 
 type Account struct {
-	ID        int    `json:"id"`
+	ID        string `json:"id"`
 	Name      string `json:"name"`
 	Subdomain string `json:"subdomain"`
 	Language  string `json:"language"`
