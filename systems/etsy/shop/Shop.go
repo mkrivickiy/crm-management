@@ -1,4 +1,4 @@
-package method
+package shop
 
 type Shop struct {
 	ShopID                         int      `json:"shop_id"`                           //The shop's numeric ID.

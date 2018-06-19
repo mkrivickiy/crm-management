@@ -1,4 +1,4 @@
-package method
+package listing
 
 type Listing struct {
 	ListingID           uint64   `json:"listing_id"`
